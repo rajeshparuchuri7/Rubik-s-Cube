@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rubik's Cube Solver</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <h1>Rubik's Cube Solver</h1>
+
+  <div class="button-panel">
+    <button id="scrambleBtn">Scramble Cube</button>
+    <button id="solveBtn">Solve Cube</button>
+    <button id="resetBtn">Reset Cube</button>
+  </div>
+
+  <div id="cubeDisplay" class="cube-container">
+
+  </div>
+
+  <h3>Manual Moves</h3>
+  <div class="manual-controls">
+    <button onclick="rotateManual('U')">⬆ Up</button>
+    <button onclick="rotateManual('D')">⬇ Down</button>
+    <button onclick="rotateManual('L')">⬅ Left</button>
+    <button onclick="rotateManual('R')">➡ Right</button>
+  </div>
+
+  <h3 id="stepCount">Steps to solve: 0</h3>
+  <div id="stepsLog" class="steps-log"></div>
+
+  <script src="./cube.js"></script>
+  <script src="./getCubeSvg.js"></script>
+</body>
+</html>

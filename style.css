@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.button-panel {
+  margin-bottom: 20px;
+}
+
+.button-panel button,
+.manual-controls button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cube-container {
+  margin: 30px auto;
+  width: fit-content;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+}
+
+.manual-controls {
+  margin: 20px auto;
+}
+
+.steps-log {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #aaa;
+  padding: 10px;
+  background-color: #fff;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
